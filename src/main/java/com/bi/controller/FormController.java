@@ -17,6 +17,7 @@ public class FormController extends SimpleFormController {
 
 	public FormController(StudentService service) {
 		this.service = service;
+		//System.out.println("Service injected to controller");
 	}
 	
 	@Override
